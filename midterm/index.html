@@ -3,10 +3,125 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>kerk0012 midterm</title>
-    <link href="css/main.css" rel="stylesheet">
+    <title>Mercedes Midterm</title>
+
+    <!-- Main stylesheet -->
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-    
+    <!-- Main page container -->
+    <div class="page-wrapper">
+
+        <!-- Header section with image and title on top -->
+        <header>
+            <div class="banner">
+                <img src="images/gamme Mercedes.jpg" alt="Mercedes vehicle lineup">
+                <h1>Mercedes Range</h1>
+            </div>
+
+            <!-- Navigation -->
+            <nav>
+                <ul>
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#story">STORY</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Main content -->
+        <main id="home">
+
+            <!-- Story article -->
+            <section id="story">
+                <h2>Life of a Mercedes</h2>
+
+                <article>
+                    <img src="images/AMG GT.jpg" alt="Mercedes AMG GT parked outdoors" class="float-img">
+
+                    <p>
+                        Mercedes-Benz is known around the world for luxury, performance, comfort, and innovation.
+                        From elegant daily drivers to powerful sports cars, the brand has built a strong reputation
+                        in the automotive industry. Many drivers choose Mercedes because the vehicles combine advanced
+                        technology, premium materials, smooth driving, and a timeless design.
+                    </p>
+
+                    <p>
+                        One of the most exciting models is the AMG GT. This car represents speed, style, and
+                        engineering excellence. It has a bold front grille, an aggressive body shape, and a powerful
+                        engine that delivers an unforgettable driving experience. At the same time, the Mercedes range
+                        also includes practical sedans and SUVs that are designed for families, business, and everyday
+                        comfort.
+                    </p>
+
+                    <p>
+                        Over the years, Mercedes-Benz has continued to improve safety systems, interior quality, and
+                        performance features. The company focuses on both tradition and modern technology. Because of
+                        this balance, Mercedes remains one of the most respected automotive brands in the world and
+                        continues to attract drivers who want both luxury and reliability.
+                    </p>
+                </article>
+            </section>
+
+            <!-- Facts section -->
+            <section>
+                <h2>Facts About Mercedes</h2>
+                <ul>
+                    <li>Mercedes-Benz is famous for luxury, safety, and engineering quality.</li>
+                    <li>The AMG GT is one of the brand’s best-known high-performance sports cars.</li>
+                    <li>Mercedes offers different types of vehicles such as sedans, coupes, and SUVs.</li>
+                    <li>The brand is recognized for combining comfort, technology, and strong design.</li>
+                </ul>
+            </section>
+
+            <!-- Contact form -->
+            <section id="contact">
+                <h2>Contact to learn more</h2>
+
+                <form action="#" method="post">
+                    <div class="form-group">
+                        <label for="fullname">Your Name</label>
+                        <input type="text" id="fullname" name="fullname">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Your Email</label>
+                        <input type="email" id="email" name="email">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Your Message</label>
+                        <textarea id="message" name="message" rows="6"></textarea>
+                    </div>
+
+                    <p>Would you like to drive a Mercedes?</p>
+
+                    <div class="radio-group">
+                        <label for="yes">
+                            <input type="radio" id="yes" name="visit" value="yes">
+                            Yes
+                        </label>
+
+                        <label for="no">
+                            <input type="radio" id="no" name="visit" value="no">
+                            No
+                        </label>
+
+                        <label for="maybe">
+                            <input type="radio" id="maybe" name="visit" value="maybe">
+                            Maybe
+                        </label>
+                    </div>
+
+                    <button type="submit">SEND</button>
+                </form>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; Mercedes Range</p>
+        </footer>
+    </div>
 </body>
 </html>
