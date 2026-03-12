@@ -10,7 +10,7 @@ body {
 .page-wrapper {
     width: 80%;
     max-width: 900px;
-    margin: 25px auto;
+    margin: 0 auto;
     background-color: #d9e6e4;
 }
 
