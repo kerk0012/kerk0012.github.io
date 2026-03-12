@@ -1,4 +1,4 @@
-/* Basic page setup */
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #b9d1cf;
@@ -6,7 +6,7 @@ body {
     padding: 0;
 }
 
-/* Main centered content box */
+
 .page-wrapper {
     width: 80%;
     max-width: 900px;
@@ -14,7 +14,7 @@ body {
     background-color: #d9e6e4;
 }
 
-/* Banner area */
+
 .banner {
     position: relative;
 }
@@ -37,7 +37,7 @@ body {
     font-weight: normal;
 }
 
-/* Navigation */
+
 nav {
     background-color: #d9e6e4;
 }
@@ -71,7 +71,7 @@ nav a:hover {
     background-color: #c8d7d5;
 }
 
-/* Main content spacing */
+
 main {
     padding: 20px;
 }
@@ -82,7 +82,7 @@ h2 {
     margin-bottom: 15px;
 }
 
-/* Article image */
+
 .float-img {
     width: 260px;
     float: left;
@@ -90,26 +90,26 @@ h2 {
     margin-bottom: 10px;
 }
 
-/* Paragraph text */
+
 article p {
     line-height: 1.5;
     font-size: 1rem;
 }
 
-/* Facts list */
+
 ul {
     padding-left: 20px;
     font-size: 1rem;
 }
 
-/* Form box */
+
 form {
     border: 1px solid #7f8c8d;
     padding: 15px;
     margin-top: 10px;
 }
 
-/* Form groups */
+
 .form-group {
     margin-bottom: 15px;
 }
@@ -129,14 +129,14 @@ textarea {
     font-size: 1rem;
 }
 
-/* Radio buttons area */
+
 .radio-group label {
     display: inline-block;
     margin-right: 15px;
     font-weight: normal;
 }
 
-/* Button */
+
 button {
     margin-top: 15px;
     padding: 8px 14px;
@@ -149,14 +149,14 @@ button:hover {
     background-color: #d4d4d4;
 }
 
-/* Footer */
+
 footer {
     text-align: right;
     padding: 10px 20px 20px;
     font-size: 0.9rem;
 }
 
-/* Clear float after article */
+
 article::after {
     content: "";
     display: block;
